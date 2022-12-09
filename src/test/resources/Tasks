@@ -1,0 +1,44 @@
+task1: SetUp the framework
+
+ create a branch from master named task1
+
+
+
+- In taskul 1 adaugam in source src un main package unde contine paginile si actiunile lor. Acest package se va numi actions.
+In source test refactorizare setup si tearDown intr-o clasa numit common.BaseTest.
+	Add class to actions package.
+
+	common.BaseTest abstracta
+	Eliminarea testelor si pageObject din baseTest.(in common)
+	WEbdriver-ul tb sa fie protected.
+	In loc de beforeTest o sa fie BeforeMethod.
+	Un text in resources.(suita)
+
+
+
+
+
+Refactorizare pom.xml la dependecy in loc de testunit in testng
+
+In main si in tst adaug alt package numit resources. Resources contine toate file-uri non Java.
+In resources din test , va fi suita de teste sub format xml care va fi initializata in pom.
+
+task2: SetUp repository
+
+Creez un test case in care introduc date intr-un field si merg la urmatoarea pagina;
+
+Refactor la datele introduse in field-ul respectiv intrucat sa folosesc un mock api service. Voi crea o clasa repo aplication
+care va lua datele statice si finale dintr-o clasa. (beans). Diagrama.
+
+
+
+working on the task given by Iulian.
+
+test driven development , css selectors for selenium.(xml)
+arrange act assert. , Assert-> .
+
+
+
+
+un commit message tb sa aiba urmatorul format : un verb care (add, refactor, remove),package-ul, clasele afectate (add new page obj),
+modificare in clase(add set action to page object) + informatii utile (refactor pom to use testng)
